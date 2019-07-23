@@ -9,6 +9,15 @@ export class Home extends React.Component {
 		return (
 			<div className="text-center mt-5">
 				<h1>Hello Rigo!</h1>
+				<div className="row">
+					<div className="col">
+						<i className="fas fa-clock" />
+					</div>
+					<div className="col">{}</div>
+					<div className="col">{}</div>
+					<div className="col">{}</div>
+					<div className="col">{}</div>
+				</div>
 				<p>
 					<img src={rigoImage} />
 				</p>
